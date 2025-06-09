@@ -1,0 +1,19 @@
+{
+  "name": "todo-tdd",
+  "version": "1.0.0",
+  "description": "learn to build a full CRUD REST API with Nodejs using TDD in Jest in JavaScript, with unit testing and integration test",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --runInBand --detectOpenHandles --watchAll --coverage --collectCoverageFrom='src/**/*.js'", 
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10"
+  }
+}
