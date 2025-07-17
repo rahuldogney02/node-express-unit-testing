@@ -4,13 +4,14 @@
   "description": "learn to build a full CRUD REST API with Nodejs using TDD in Jest in JavaScript, with unit testing and integration test",
   "main": "app.js",
   "scripts": {
-    "test": "jest --runInBand --detectOpenHandles --watchAll --coverage --collectCoverageFrom='src/**/*.js'", 
+    "test": "jest --runInBand --detectOpenHandles --watchAll --coverage --collectCoverageFrom='src/**/*.js'",
     "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4"
   },
   "devDependencies": {
     "jest": "^29.7.0",
